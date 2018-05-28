@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <EditTextPreference
+            android:id="@+id/editTSzerokosc"
+            android:key="@string/prefSzer"
+            android:title="@string/szerokosc"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:dialogTitle="@string/szerokosc" />
+
+        <EditTextPreference
+            android:id="@+id/editTDlugosc"
+            android:key="@string/prefDlug"
+            android:title="@string/dlugosc"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:dialogTitle="@string/dlugosc" />
+
+
+    <ListPreference
+        android:key="@string/prefRef"
+        android:title="@string/odswiezanie"
+        android:dialogTitle="@string/odswiezanie"
+        android:entries="@array/appSettingsRefreshListArray"
+        android:entryValues="@array/appSettingsRefreshListValues"
+
+       />
+
+</PreferenceScreen>

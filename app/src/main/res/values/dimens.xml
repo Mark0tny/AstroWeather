@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardViewDP">3dp</dimen>
+    <dimen name="cardViewmargin">5dp</dimen>
+    <dimen name="textViewmargin">5dp</dimen>
+
+</resources>

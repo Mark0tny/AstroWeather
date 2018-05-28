@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AstroWeather</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--SUN-->
+    <string name="wschod">Wschód</string>
+    <string name="zachod">Zachód</string>
+    <string name="zmierzch">Zmierzch</string>
+    <string name="switc">Świt cywilny</string>
+    <!--MOON-->
+    <string name="nowPelnia">Nów i Pełnia</string>
+    <string name="now">Nów:</string>
+    <string name="pelnia">Pełnia:</string>
+    <string name="fazaK">Faza:</string>
+    <string name="dzienMS">Dzień miesiąca synodycznego</string>
+    <string name="azymut">Azymut:</string>
+    <string name="czas">Czas:</string>
+    <string name="dzien">Dzień:</string>
+
+    <!--PREFERENCES-->
+    <string name="szerokosc">Szerokość geograficzna</string>
+    <string name="dlugosc">Długość geograficzna</string>
+    <string name="odswiezanie">Częstotliwość odswieżania</string>
+    <string name="prefSzer">szerokosc</string>
+    <string name="prefDlug">dlugosc</string>
+    <string name="prefRef">refresh</string>
+    <string name="szerokoscPodaj">Podaj szerokość geograficzną</string>
+    <string name="dlugoscPodaj">Podaj długość geograficzną</string>
+
+
+</resources>
