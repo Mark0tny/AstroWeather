@@ -38,7 +38,7 @@ public class MainActivity extends FragmentActivity {
         getFragmentManager().beginTransaction()
                 .replace(android.R.id.content, new SettingsFragment()).commit();
 
-        if (!getResources().getBoolean(R.bool.isTablet)) {
+        if (getResources().getBoolean(R.bool.isTablet)) {
             initializePageAdapter();
         }else{
             getFragmentManager().beginTransaction()

@@ -2,12 +2,10 @@ package com.kotu.astroweather;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 
 public class SunFragment extends Fragment implements AstroWeatherCallback {
@@ -29,7 +27,7 @@ public class SunFragment extends Fragment implements AstroWeatherCallback {
     public SunFragment() {
     }
 
-    public static SunFragment newInstance(String title, int page) {
+    public static Fragment newInstance(String title, int page) {
         SunFragment fragment = new SunFragment();
         Bundle args = new Bundle();
         args.putString(ARG_TITLE, title);

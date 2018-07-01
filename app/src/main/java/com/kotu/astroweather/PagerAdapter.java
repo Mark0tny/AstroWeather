@@ -4,13 +4,16 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.support.v13.app.FragmentPagerAdapter;
 
+
 public class PagerAdapter extends FragmentPagerAdapter {
 
     private static int NUM_ITEMS = 3;
 
-    public PagerAdapter(FragmentManager fragmentManager) {
-        super(fragmentManager);
+
+    public PagerAdapter(FragmentManager fm) {
+        super(fm);
     }
+
 
     // Returns total number of pages
     @Override

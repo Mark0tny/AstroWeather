@@ -25,7 +25,7 @@ public class MoonFragment extends Fragment implements AstroWeatherCallback {
     public MoonFragment() {
     }
 
-    public static MoonFragment newInstance(String title, int page) {
+    public static Fragment newInstance(String title, int page) {
         MoonFragment fragment = new MoonFragment();
         Bundle args = new Bundle();
         args.putString(ARG_TITLE, title);
